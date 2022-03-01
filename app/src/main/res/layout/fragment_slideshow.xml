@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <ImageView
+        android:id="@+id/diente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/diente_3"/>
+
+    <TableRow>
+        <TextView android:text="Paciente:" android:layout_width="wrap_content" android:textSize="20dp"/>
+        <EditText android:id="@+id/pacienteText" android:ems="12" android:inputType="text"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Ingrese servicio:" android:layout_width="wrap_content" android:textSize="20dp"/>
+        <EditText android:id="@+id/servicioText" android:ems="12" android:inputType="text" android:layout_width="match_parent"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Fecha:" android:layout_width="wrap_content" android:textSize="20dp"/>
+        <EditText android:id="@+id/fechaText" android:ems="12" android:inputType="date"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Costo:" android:layout_width="wrap_content" android:textSize="20dp"/>
+        <EditText android:id="@+id/costoText" android:ems="12" android:inputType="number"/>
+    </TableRow>
+    <TableRow>
+        <Button android:textSize="14dp" android:id="@+id/buscar" android:text="Buscar paciente" android:layout_weight="1"/>
+    </TableRow>
+    <TableRow>
+        <Button android:textSize="14dp" android:id="@+id/actualizar" android:text="Actualizar paciente" android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>

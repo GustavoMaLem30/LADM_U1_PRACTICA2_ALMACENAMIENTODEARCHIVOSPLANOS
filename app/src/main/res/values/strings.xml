@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LADM_U1_PRACTICA2_ALMACENAMIENTODEARCHIVOSPLANOS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Dental Schedule</string>
+    <string name="nav_header_subtitle">By Gustavo Marin Lemus
+                                       #NoMeRepruebesBenigno</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">#NoMeRepruebesBenigno</string>
+
+    <string name="menu_mostrar">Mostrar Servicios</string>
+    <string name="menu_agregar">Agregar Servicio</string>
+    <string name="menu_actualizar">Actualizar Servicio</string>
+    <string name="menu_eliminar">Eliminar Servicio</string>
+</resources>
